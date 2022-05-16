@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Common JavaScript Mistakes</h2>
+
+<p>This returns true (maybe not as expected), because 10 is true:</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 0;
+document.getElementById("demo").innerHTML = Boolean(x = 10);
+</script>
+
+</body>
+</html>

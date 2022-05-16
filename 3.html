@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Common JavaScript Mistakes</h2>
+
+<p>This if statement returns false (maybe not as expected), because 0 is false:</p>
+
+<p id="demo"></p>
+
+<script>
+let x = 0;
+document.getElementById("demo").innerHTML = Boolean(x = 0);
+</script>
+
+</body>
+</html>
